@@ -1,0 +1,360 @@
+{
+  "cars": [
+    {
+      "id": "V1",
+      "series": "岚甲",
+      "build": "新版"
+    },
+    {
+      "id": "V2",
+      "series": "岚甲",
+      "build": "旧版"
+    },
+    {
+      "id": "V3",
+      "series": "岚乙",
+      "build": "旧版"
+    },
+    {
+      "id": "V4",
+      "series": "岚甲",
+      "build": "旧版"
+    },
+    {
+      "id": "V5",
+      "series": "岚甲",
+      "build": "新版"
+    }
+  ],
+  "runs": [
+    {
+      "id": "R1",
+      "car": "V1",
+      "road": "上环",
+      "phase": "warmup",
+      "mode": "auto",
+      "temp": -24,
+      "speed": [
+        12,
+        24
+      ],
+      "duration": 6,
+      "started": "2026-12-01T08:22"
+    },
+    {
+      "id": "R2",
+      "car": "V1",
+      "road": "上环",
+      "phase": "afterheat",
+      "mode": "auto",
+      "temp": -24,
+      "speed": [
+        10,
+        24
+      ],
+      "duration": 8,
+      "started": "2026-12-01T08:31"
+    },
+    {
+      "id": "R3",
+      "car": "V1",
+      "road": "上环",
+      "phase": "afterheat",
+      "mode": "manual",
+      "temp": -24,
+      "speed": [
+        10,
+        22
+      ],
+      "duration": 4,
+      "started": "2026-12-01T08:39"
+    },
+    {
+      "id": "R4",
+      "car": "V2",
+      "road": "低坡",
+      "phase": "afterheat",
+      "mode": "auto",
+      "temp": -22,
+      "speed": [
+        12,
+        20
+      ],
+      "duration": 9,
+      "started": "2026-12-01T09:14"
+    },
+    {
+      "id": "R5",
+      "car": "V2",
+      "road": "上环",
+      "phase": "afterheat",
+      "mode": "auto",
+      "temp": -22,
+      "speed": [
+        16,
+        24
+      ],
+      "duration": 5,
+      "started": "2026-12-01T09:40"
+    },
+    {
+      "id": "R6",
+      "car": "V3",
+      "road": "上环",
+      "phase": "afterheat",
+      "mode": "manual",
+      "temp": -22,
+      "speed": [
+        12,
+        24
+      ],
+      "duration": 8,
+      "started": "2026-12-01T09:45"
+    },
+    {
+      "id": "R7",
+      "car": "V1",
+      "road": "上环",
+      "phase": "afterheat",
+      "mode": "auto",
+      "temp": -25,
+      "speed": [
+        12,
+        23
+      ],
+      "duration": 8,
+      "started": "2026-12-01T11:23"
+    },
+    {
+      "id": "R8",
+      "car": "V4",
+      "road": "上环",
+      "phase": "afterheat",
+      "mode": "auto",
+      "temp": -25,
+      "speed": [
+        10,
+        24
+      ],
+      "duration": 8,
+      "started": "2026-12-01T11:31"
+    },
+    {
+      "id": "R9",
+      "car": "V4",
+      "road": "上环",
+      "phase": "afterheat",
+      "mode": "auto",
+      "temp": -23,
+      "speed": [
+        10,
+        24
+      ],
+      "duration": 8,
+      "started": "2026-12-01T14:07"
+    },
+    {
+      "id": "R10",
+      "car": "V5",
+      "road": "上环",
+      "phase": "afterheat",
+      "mode": "auto",
+      "temp": -22,
+      "speed": [
+        10,
+        24
+      ],
+      "duration": 8,
+      "started": "2026-12-01T14:11"
+    },
+    {
+      "id": "R11",
+      "car": "V4",
+      "road": "低坡",
+      "phase": "afterheat",
+      "mode": "auto",
+      "temp": -22,
+      "speed": [
+        12,
+        20
+      ],
+      "duration": 9,
+      "started": "2026-12-01T14:24"
+    },
+    {
+      "id": "R12",
+      "car": "V5",
+      "road": "低坡",
+      "phase": "afterheat",
+      "mode": "auto",
+      "temp": -21,
+      "speed": [
+        12,
+        20
+      ],
+      "duration": 9,
+      "started": "2026-12-01T14:32"
+    }
+  ],
+  "notes": [
+    {
+      "id": "N1",
+      "observer": "周安",
+      "run_hint": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "text": "升温后第一次全程没再抖，第二圈末了又顿了下，当时我已经接管。"
+    },
+    {
+      "id": "N2",
+      "observer": "俞礼",
+      "run_hint": [
+        "R2"
+      ],
+      "text": "后排在上环后半段没觉到之前那阵连颤，前半段我没注意。"
+    },
+    {
+      "id": "N3",
+      "observer": "金梁",
+      "run_hint": [
+        "R4",
+        "R5"
+      ],
+      "text": "低坡转弯一直挺稳。后来那圈我说的顿，是旁车同事发来的，说他正降速。"
+    },
+    {
+      "id": "N4",
+      "observer": "谢晓",
+      "run_hint": [
+        "R6"
+      ],
+      "text": "二车手控上环跑完，无连颤。不是暖身阶段。"
+    },
+    {
+      "id": "N5",
+      "observer": "俞礼",
+      "run_hint": [
+        "R7"
+      ],
+      "text": "冰道转弯那会儿持续抖了两回，我在副驾，没接管。"
+    },
+    {
+      "id": "N6",
+      "observer": "周安",
+      "run_hint": [
+        "R2",
+        "R3"
+      ],
+      "text": "刚才说第二圈的那回发生在接手以后。周安、俞礼登的是同一圈。"
+    },
+    {
+      "id": "N7",
+      "observer": "俞礼",
+      "run_hint": [
+        "R7"
+      ],
+      "text": "原来那句先把上环写成了低坡，V1 这次确实走上环。"
+    },
+    {
+      "id": "N8",
+      "observer": "周安",
+      "run_hint": [
+        "R8",
+        "R9",
+        "R10"
+      ],
+      "text": "旧四号午前上环连着抖了三次，下午只抖一次。新五号下午那圈比它轻，连颤一下便停了。"
+    },
+    {
+      "id": "N9",
+      "observer": "周安",
+      "run_hint": [
+        "R11",
+        "R12"
+      ],
+      "text": "旧四号低坡连颤，新五号同段整圈未有连颤。"
+    },
+    {
+      "id": "N10",
+      "observer": "金梁",
+      "run_hint": [
+        "R9",
+        "R10"
+      ],
+      "text": "下午“比它轻”说的是午前旧四号那种颤，和下午旧四号没在同一圈比。"
+    },
+    {
+      "id": "N11",
+      "observer": "周安",
+      "run_hint": [
+        "R12"
+      ],
+      "text": "新五号当时降速走，中间那一段没留意。请别把整圈都算成已观察。"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "scope": "岚甲上环升温后自动模式",
+      "type": "较轻",
+      "required": 2,
+      "evidence": "新旧实测配对，速度范围至少有12至24 km/h的共同暴露，起始温度差至多2度。每个运行至少7分钟且观察覆盖其比较区间。"
+    },
+    {
+      "id": "C2",
+      "scope": "岚甲低坡升温后自动模式",
+      "type": "较轻",
+      "required": 1,
+      "evidence": "新旧实测配对，温差至多2度，速度12至20 km/h，每侧连续观察至少8分钟。"
+    },
+    {
+      "id": "C3",
+      "scope": "岚甲上环及低坡升温后自动模式",
+      "type": "未出现",
+      "required": 2,
+      "evidence": "分路段至少两次新版全程独立观察，连续区间至少7分钟，需明确未出现。"
+    }
+  ],
+  "signoffs": [
+    {
+      "id": "S1",
+      "claim": "C2",
+      "author": "欧阳岚",
+      "text": "12月1日已签。候选五号在低坡升温后的自动模式，在已观察的12–20 km/h工况较旧四号稳。"
+    },
+    {
+      "id": "S2",
+      "claim": "C1",
+      "author": "欧阳岚",
+      "text": "签认留待确认。上环只有局部观察。"
+    }
+  ],
+  "copy": [
+    {
+      "id": "K1",
+      "state": "公开",
+      "refs": [
+        "S1"
+      ],
+      "text": "在寒区全程不再连续颤动。"
+    },
+    {
+      "id": "K2",
+      "state": "备审",
+      "refs": [
+        "S1"
+      ],
+      "text": "较旧版，上环和低坡升温后开自动模式都更稳。"
+    },
+    {
+      "id": "K3",
+      "state": "备审",
+      "refs": [
+        "S1"
+      ],
+      "text": "低坡升温后的自动模式里，特定速度范围的观察显示颤动较旧版轻。"
+    }
+  ]
+}
